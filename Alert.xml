@@ -1,0 +1,28 @@
+<alert xmlns="http://niem.gov/niem/niem_cap">
+  <identifier>1234567890</identifier>
+  <sender>National Weather Service, Hollywood, FL</sender>
+  <sent>2025-03-22T14:30:00-05:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <event>Test</event>
+    <urgency>Expected</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <category>Test</category>
+    <responseType>Test</responseType>
+    <parameter>
+      <valueName>AffectedArea</valueName>
+      <value>000000</value>
+    </parameter>
+    <area>
+      <areaDesc>000000</areaDesc>
+      <geocode>
+        <valueName>FIPS</valueName>
+        <value>12345</value>
+      </geocode>
+    </area>
+    <instruction>Take shelter in a sturdy building and stay informed.</instruction>
+  </info>
+</alert>
